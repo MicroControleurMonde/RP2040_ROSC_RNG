@@ -69,8 +69,21 @@ The RP2040 ROSC RNG generates random integer numbers as **32-bit values**.
 
 ## Ent Test Report
 
-## Dieharder Test Report
+  ([www.fourmilab.ch](https://www.fourmilab.ch/random/)) John Walker
+- Sample size: **10,7 MB**
+- Total generated: **1'000'000 values**
 
+- [Ent Report -Raw]
+- [Ent Report Analyse]
+
+## Dieharder Test Report
+(https://webhome.phy.duke.edu/~rgb/General/dieharder.php) Robert G. Brown
+
+- Sample size: **10,7 MB**
+- Total generated: **1'000'000 values**
+
+- [Dieharder Report - Raw]
+- [Dieharder Report Analyses]
 
 ## Acknowledgements
 
