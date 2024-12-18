@@ -16,10 +16,14 @@ Raspberry foundation recently updated their Pico Datasheet:
 
     2.17.5. Random Number Generator
     
-    If the system clocks are running from the XOSC and/or PLLs the ROSC can be used to generate random numbers.
-    Simply enable the ROSC and read the RANDOMBIT register to get a 1-bit random number and read it n times to get an n-
-    bit value. This does not meet the requirements of randomness for security systems because it can be compromised,
-    but it may be useful in less critical applications. If the cores are running from the ROSC then the value will not be
+    If the system clocks are running from the XOSC and/or PLLs the ROSC can be used to generate 
+    random numbers.
+    Simply enable the ROSC and read the RANDOMBIT register to get a 1-bit random number and read
+    it n times to get an n-
+    bit value. This does not meet the requirements of randomness for security systems because it
+    can be compromised,
+    but it may be useful in less critical applications. If the cores are running from the ROSC 
+    then the value will not be
     random because the timing of the register read will be correlated to the phase of the ROSC.
     
 The random number generator uses the ROSC (Resonance Oscillator) to produce random bits.
