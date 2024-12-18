@@ -79,9 +79,10 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 
 ## Performance
 
-- Time taken to generate 1'000'000 values: **xx** seconds (avg)
-- Throughput: **xxxx** Bytes/sec
-- **xxxx** random values / sec.
+- Estimated time to generate 1'000'000 values: **1400 seconds** (approx. 23 minutes)
+- Average time per value: **0.0014 seconds** 
+- Estimated Throughput: **≈ 2857 Bytes/sec**
+- Number of values generated per second: **≈714 values/sec**
 
 - [Data sample](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/rp2040_rosc_rng_1Mil.txt)
 
