@@ -73,7 +73,7 @@ The RP2040 ROSC RNG generates random integer numbers as **32-bit values**.
 - Sample size: **10,7 MB**
 - Total generated: **1'000'000 values**
 
-- [Ent Report -Raw]
+- [Ent Report -Raw](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Ent_rp2040_rosc_rng_1Mil.txt)
 - [Ent Report Analyse]
 
 ## Dieharder Test Report
