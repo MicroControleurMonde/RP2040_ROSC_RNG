@@ -47,7 +47,11 @@ This Python library provides a class `ROSCRandomGenerator` that generates random
 
 This script imports the `ROSCRandomGenerator` class from rosc_random_generator.py and generates random numbers
 
-#### Output Example:
+### Installation
+- Save this code in a file named `rosc_random_generator.py` .
+- To use this library in another project, just import it like any Python module.
+
+### Output Example:
 
 The RP2040 ROSC RNG generates random integer numbers as **32-bit values**.
 
