@@ -12,7 +12,7 @@ A Micro-python library that provides an interface to generate a random number us
 Raspberry foundation recently updated their Pico Datasheet:
 `Datasheet - Build-date: 2024-10-15 / Build-version: eec2b0c-clean` [Link](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)
 
-**Page 222.  Chapter 2.17. Ring Oscillator (ROSC), here is what we can read:**
+**Page 222.  Chapter 2.17. Ring Oscillator (ROSC)**, here is what we can read:
 
     2.17.5. Random Number Generator
     
@@ -58,8 +58,8 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 ## Acknowledgements
 
 The project is based on the RP2040 microcontroller, and its MicroPython firmware.
-- Waveshare RP2040-Plus: MicroPython ef518cbf2-dirty on 2023-03-24;
-- XIAO seed studio: MicroPython v1.22.1 on 2024-01-05;
+- `Waveshare RP2040-Plus: MicroPython ef518cbf2-dirty on 2023-03-24;`
+- `XIAO seed studio: MicroPython v1.22.1 on 2024-01-05;`
 
 ## Disclaimer
 
