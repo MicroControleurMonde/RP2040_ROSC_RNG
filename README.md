@@ -83,6 +83,8 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 - Throughput: **xxxx** Bytes/sec
 - **xxxx** random values / sec.
 
+- [Data sample](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/rp2040_rosc_rng_1Mil.txt)
+
 ## Ent Test Report
 
   ([www.fourmilab.ch](https://www.fourmilab.ch/random/)) John Walker
