@@ -48,6 +48,22 @@ This project implements a True Random Number Generator (TRNG) using the RP2040 m
 
 This way, this process ensures that the ROSC is correctly initialised and stable before random values are generated, and manages the reset in the event of a stability problem during the process.
 
+The RP2040 RNG generates random integer numbers as 32-bit values.
+
+        ROSC is stable. Starting random number generation...
+
+        Random value # 1: 1588771458
+        Random value # 2: 3078913510
+        Random value # 3: 2484362909
+        Random value # 4: 1870839875
+        Random value # 5: 1863583242
+        Random value # 6: 1239368371
+        Random value # 7: 2425731350
+        Random value # 8: 2485150019
+        Random value # 9: 344178677
+        Random value # 10: 210045196
+
+
 ## Performance
 
 ## Ent Test Report
