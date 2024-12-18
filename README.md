@@ -67,9 +67,9 @@ The RP2040 ROSC RNG generates random integer numbers as **32-bit values**.
 
 ## Performance
 
-Time taken to generate 1'000'000 values: xx seconds (avg)
-Throughput: xxxx Bytes/sec
-xxxx random values / sec.
+- Time taken to generate 1'000'000 values: **xx** seconds (avg)
+- Throughput: **xxxx** Bytes/sec
+- **xxxx** random values / sec.
 
 ## Ent Test Report
 
