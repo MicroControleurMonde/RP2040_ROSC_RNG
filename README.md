@@ -82,7 +82,7 @@ The RP2040 ROSC RNG generates random integer numbers as **32-bit values**.
 - Sample size: **10,7 MB**
 - Total generated: **1'000'000 values**
 
-- [Dieharder Report - Raw]
+- [Dieharder Report - Raw](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Dieharder_rp2040_rosc_rng_1Mil.txt)
 - [Dieharder Report Analyses]
 
 ## Acknowledgements
