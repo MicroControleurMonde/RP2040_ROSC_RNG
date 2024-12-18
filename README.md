@@ -43,7 +43,7 @@ This project implements a True Random Number Generator (TRNG) using the RP2040 m
 
 This Python library provides a class `ROSCRandomGenerator` that generates random numbers based on the RP2040's RSOC.
 
-3. **test_rosc_random_generator.py – Example script**
+2. **test_rosc_random_generator.py – Example script**
 
 This script imports the `ROSCRandomGenerator` class from rosc_random_generator.py and generates random numbers
 
