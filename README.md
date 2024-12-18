@@ -3,7 +3,8 @@
 ![Image locale](https://github.com/MicroControleurMonde/RP2040-RNG/blob/main/Reports/RP2040-resizeimage3.png)
 
 A Micro-python library that provides an interface to generate a random number using the recommended method (ROSC reading) by Raspberry.
-
+- Library : **rosc_random_generator.py**
+- Library test : **test_rosc_random_generator.py**
 ---
 # Under construction !
 
