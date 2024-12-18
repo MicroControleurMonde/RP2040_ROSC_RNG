@@ -5,8 +5,8 @@
 A Micro-python library that provides an interface to generate a random number using the recommended method (ROSC reading) by Raspberry.
 - Library : **rosc_random_generator.py**
 - Library test : **test_rosc_random_generator.py**
+
 ---
-# Under construction !
 
 ## Context:
 
@@ -79,10 +79,12 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 
 ## Performance
 
+**Caution**: no writing on flash !
+
 - Estimated time to generate 1'000'000 values: **1400 seconds** (approx. 23 minutes)
 - Average time per value: **0.0014 seconds** 
 - Estimated Throughput: **≈ 2857 Bytes/sec**
-- Number of values generated per second: **≈714 values/sec**
+- Number of values generated per second: **≈ 714 values/sec**
 
 - [Data sample](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/rp2040_rosc_rng_1Mil.txt)
 
