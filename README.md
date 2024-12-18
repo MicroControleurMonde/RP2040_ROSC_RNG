@@ -39,15 +39,15 @@ This project implements a True Random Number Generator (TRNG) using the RP2040 m
 
 ## Usage
 
-## How it Works
+1. **rosc_random_generator.py – Library for generating random numbers**
 
-- 1 - The program declares the variables and constants required to interact with the ROSC.
-- 2 - It checks the state of the ROSC to ensure that it is stable.
-- 3 - If the ROSC is stable, it generates 32-bit random values, displaying each value and regularly checking the stability of the ROSC.
-- 4 - If ROSC instability is detected, it resets the ROSC to restore stability.
-- 5 - Once the values have been generated, it displays an end message.
+This Python library provides a class `ROSCRandomGenerator` that generates random numbers based on the RP2040's RSOC.
 
-This way, this process ensures that the ROSC is correctly initialised and stable before random values are generated, and manages the reset in the event of a stability problem during the process.
+3. **test_rosc_random_generator.py – Example script**
+
+This script imports the `ROSCRandomGenerator` class from rosc_random_generator.py and generates random numbers
+
+#### Output Example:
 
 The RP2040 ROSC RNG generates random integer numbers as **32-bit values**.
 
@@ -63,6 +63,17 @@ The RP2040 ROSC RNG generates random integer numbers as **32-bit values**.
         Random value # 8:	 3392796777
         Random value # 9:	 1501861143
         Random value # 10:	 238555703
+## How it Works
+
+- 1 - The program declares the variables and constants required to interact with the ROSC.
+- 2 - It checks the state of the ROSC to ensure that it is stable.
+- 3 - If the ROSC is stable, it generates 32-bit random values, displaying each value and regularly checking the stability of the ROSC.
+- 4 - If ROSC instability is detected, it resets the ROSC to restore stability.
+- 5 - Once the values have been generated, it displays an end message.
+
+This way, this process ensures that the ROSC is correctly initialised and stable before random values are generated, and manages the reset in the event of a stability problem during the process.
+
+
 
 
 ## Performance
