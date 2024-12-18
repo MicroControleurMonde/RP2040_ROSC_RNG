@@ -77,9 +77,6 @@ The RP2040 ROSC RNG generates random integer numbers as **32-bit values**.
 
 This way, this process ensures that the ROSC is correctly initialised and stable before random values are generated, and manages the reset in the event of a stability problem during the process.
 
-
-
-
 ## Performance
 
 - Time taken to generate 1'000'000 values: **xx** seconds (avg)
@@ -93,8 +90,8 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 - Total generated: **1'000'000 values**
 - Entropy = **3.450903** bits per byte
 
-- [Ent Report -Raw](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Ent_rp2040_rosc_rng_1Mil.txt)
-- [Ent Report Analyse]
+- [Ent Report - Raw](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Ent_rp2040_rosc_rng_1Mil.txt)
+- [Ent Report Analyse](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Ent_1Mil_Report_Analyse.md)
 
 ## Dieharder Test Report
 (https://webhome.phy.duke.edu/~rgb/General/dieharder.php) Robert G. Brown
@@ -103,7 +100,7 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 - Total generated: **1'000'000 values**
 
 - [Dieharder Report - Raw](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Dieharder_rp2040_rosc_rng_1Mil.txt)
-- [Dieharder Report Analyses]
+- [Dieharder Report Analyses](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Dieharder_1Mil_Report_Analyse.md)
 
 ## Acknowledgements
 
