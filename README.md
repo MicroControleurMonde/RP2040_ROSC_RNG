@@ -3,15 +3,17 @@
 ![Image locale](https://github.com/MicroControleurMonde/RP2040-RNG/blob/main/Reports/RP2040-resizeimage3.png)
 
 A Micro-python library that provides an interface to generate a random number using the recommended method (ROSC reading) by Raspberry.
-- Library : **rosc_random_generator.py**
-- Library test : **test_rosc_random_generator.py**
+- Library : `rosc_random_generator.py` -  Python library for generating random numbers
+- Test Script: `test_rosc_random_generator.py` - Example script demonstrating how to use the library.
 
 ---
 
 ## Context:
 
 Raspberry foundation recently updated their Pico Datasheet:
-`Datasheet - Build-date: 2024-10-15 / Build-version: eec2b0c-clean` [Link](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)
+`Datasheet - Build-date: 2024-10-15 / Build-version: eec2b0c-clean` 
+
+[RP2040 Pico datasheet (Chapter 2.17)](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)
 
 **Page 222.  Chapter 2.17. Ring Oscillator (ROSC)**, here is what we can read:
 
@@ -29,7 +31,7 @@ The random number generator uses the ROSC (Resonance Oscillator) to produce rand
 ---
 ## Project Description
 
-This project implements a True Random Number Generator (TRNG) using the RP2040 microcontroller. The generator collects Use the Resonance Oscillator as preconized in the Datasheet.
+This project implements a True Random Number Generator (TRNG) using the RP2040 microcontroller. The generator use the Ring Oscillator as recommended in the datasheet..
 
 ## Requirements
 
@@ -48,7 +50,7 @@ This Python library provides a class `ROSCRandomGenerator` that generates random
 This script imports the `ROSCRandomGenerator` class from rosc_random_generator.py and generates random numbers
 
 ### Installation
-- Save this code in a file named `rosc_random_generator.py` .
+- Save this code in a files named `rosc_random_generator.py` and `test_rosc_random_generator.py`.
 - To use this library in another project, just import it like any Python module.
 
 ### Output Example:
@@ -72,7 +74,7 @@ The RP2040 ROSC RNG generates random integer numbers as **32-bit values**.
 - 1 - The program declares the variables and constants required to interact with the ROSC.
 - 2 - It checks the state of the ROSC to ensure that it is stable.
 - 3 - If the ROSC is stable, it generates 32-bit random values, displaying each value and regularly checking the stability of the ROSC.
-- 4 - If ROSC instability is detected, it resets the ROSC to restore stability.
+- 4 - If instability is detected, the program resets the ROSC and waits for it to stabilize before continuing.
 - 5 - Once the values have been generated, it displays an end message.
 
 This way, this process ensures that the ROSC is correctly initialised and stable before random values are generated, and manages the reset in the event of a stability problem during the process.
@@ -93,7 +95,7 @@ This way, this process ensures that the ROSC is correctly initialised and stable
   ([www.fourmilab.ch](https://www.fourmilab.ch/random/)) John Walker
 - Sample size: **10,7 MB**
 - Total generated: **1'000'000 values**
-- Entropy = **3.450903** bits per byte
+- Entropy = **3.450903** bits per byte (measure of randomness)
 
 - [Ent Report - Raw](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Ent_rp2040_rosc_rng_1Mil.txt)
 - [Ent Report Analyse](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Ent_1Mil_Report_Analyse.md)
