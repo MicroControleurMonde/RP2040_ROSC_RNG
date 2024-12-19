@@ -50,7 +50,7 @@ This Python library provides a class `ROSCRandomGenerator` that generates random
 This script imports the `ROSCRandomGenerator` class from rosc_random_generator.py and generates random numbers
 
 ### Installation
-- Save this code in a files named `rosc_random_generator.py` and `test_rosc_random_generator.py`.
+- Save thess codes in files named `rosc_random_generator.py` and `test_rosc_random_generator.py`.
 - To use this library in another project, just import it like any Python module.
 
 ### Output Example:
