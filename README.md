@@ -6,6 +6,8 @@ A Micro-python library that provides an interface to generate a random number us
 - Library : `rosc_random_generator.py` -  Python library for generating random numbers
 - Test Script: `test_rosc_random_generator.py` - Example script demonstrating how to use the library.
 
+##### (Update 12.22.2024)
+- `Test_ROSC.py` - The initial code that I used to test RP2040 ROSC.
 ---
 
 ## Context:
