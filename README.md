@@ -118,7 +118,13 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 - [Ent Report Analyse](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Ent_1Mil_Report_Analyse.md)
 
 [Scatter plot representation](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Scatter%20Plot.png)
+
+![Scatter](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Webp.net-resizeimage2.png)
+
 [Values histogram](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Histogram%20of%20Random%20Numbers.png)
+
+![Histogram](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Webp.net-resizeimage.png)
+
 
 ### Dieharder Test Report
 #### (Updated 22.12.2024)
