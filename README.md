@@ -94,7 +94,12 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 
 ## Statistical and Quality Tests
 
-**Note:** Following a kind reminder from Scruss [(Link)](https://github.com/scruss), I changed the output file format from ASCII to Binary
+**Note:** Following a kind reminder from Scruss [(Link)](https://github.com/scruss), I changed the output file format from ASCII to Binary.
+
+        When converting random integers into ASCII strings, there is a _**loss of entropy**_ ! A 32-bit integer represents a value that can be expressed in a range of 4,294,967,296 possible values (from 0 to 2^32 - 1). 
+        This integer range contains 32 bits of entropy.
+        Due to the way ASCII characters are represented (for example, numbers or letters), some of the entropy is lost due to the limited number of possible characters. 
+        Each character in ASCII contains approximately 3.45 bits of entropy instead of the 8 possible entropy bits for a complete byte (Log₂ 11 ≈ 3.459).
 
 
 ### Ent Test Report 
