@@ -117,11 +117,11 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 - [Ent Report - Raw](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Ent_rp2040_rosc_rng_1425424.txt)
 - [Ent Report Analyse](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Ent_1Mil_Report_Analyse.md)
 
-[Scatter plot representation](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Scatter%20Plot.png)
+[Scatter plot representation](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Scatter%20Plot.png) [Full size]
 
 ![Scatter](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Webp.net-resizeimage2.png)
 
-[Values histogram](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Histogram%20of%20Random%20Numbers.png)
+[Values histogram](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Histogram%20of%20Random%20Numbers.png) [Full size]
 
 ![Histogram](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Webp.net-resizeimage.png)
 
