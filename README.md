@@ -112,7 +112,7 @@ This way, this process ensures that the ROSC is correctly initialised and stable
   ([www.fourmilab.ch](https://www.fourmilab.ch/random/)) John Walker
 - Sample size: **5.43 Mo MB**
 - Total generated: **1'425'424 values**
-- Entropy = **7.973888** bits per byte (measure of randomness)
+- Entropy = **7.973888** bits per byte (measure of randomness - Max=**8**)
 
 - [Ent Report - Raw](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Ent_rp2040_rosc_rng_1425424.txt)
 - [Ent Report Analyse](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Ent_1Mil_Report_Analyse.md)
