@@ -81,7 +81,7 @@ The RP2040 ROSC RNG generates random integer numbers as **32-bit values**.
 
 This way, this process ensures that the ROSC is correctly initialised and stable before random values are generated, and manages the reset in the event of a stability problem during the process.
 
-## Performance
+## Performance Test
 
 **Caution**: no writing on flash !
 
@@ -92,7 +92,12 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 
 - [Data sample](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/rp2040_rosc_rng_1Mil.txt)
 
-## Ent Test Report 
+## Statistical and Quality Tests
+
+**Note:** Following a kind reminder from Scruss [(Link)](https://github.com/scruss), I changed the output file format from ASCII to Binary
+
+
+### Ent Test Report 
 #### (Updated 22.12.2024)
 
   ([www.fourmilab.ch](https://www.fourmilab.ch/random/)) John Walker
@@ -103,7 +108,8 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 - [Ent Report - Raw](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Ent_rp2040_rosc_rng_1425424.txt)
 - [Ent Report Analyse](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Ent_1Mil_Report_Analyse.md)
 
-## Dieharder Test Report
+### Dieharder Test Report
+#### (Updated 22.12.2024)
 (https://webhome.phy.duke.edu/~rgb/General/dieharder.php) Robert G. Brown
 
 - Sample size: **5.43 Mo MB**
