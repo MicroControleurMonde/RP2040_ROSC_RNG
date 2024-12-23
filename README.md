@@ -90,7 +90,7 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 - Estimated Throughput: **≈ 2857 Bytes/sec**
 - Number of values generated per second: **≈ 714 values/sec**
 
-- [Data sample](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/rp2040_rosc_rng_1Mil.txt)
+- [Data sample](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/rp2040_rosc_rng_1425424.bin)
 
 ## Statistical and Quality Tests
 
