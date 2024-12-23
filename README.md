@@ -92,12 +92,13 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 
 - [Data sample](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/rp2040_rosc_rng_1Mil.txt)
 
-## Ent Test Report
+## Ent Test Report 
+#### (Updated 22.12.2024)
 
   ([www.fourmilab.ch](https://www.fourmilab.ch/random/)) John Walker
-- Sample size: **10,7 MB**
-- Total generated: **1'000'000 values**
-- Entropy = **3.450903** bits per byte (measure of randomness)
+- Sample size: **5.43 Mo MB**
+- Total generated: **1'425'424 values**
+- Entropy = **7.973888** bits per byte (measure of randomness)
 
 - [Ent Report - Raw](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Ent_rp2040_rosc_rng_1Mil.txt)
 - [Ent Report Analyse](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Ent_1Mil_Report_Analyse.md)
