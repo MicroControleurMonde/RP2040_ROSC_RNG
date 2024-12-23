@@ -1,21 +1,52 @@
-### Data Summary:
-- **Value Frequencies**:
-  - The values in the file range from 10 to 57, with the value 49 dominating (1,146,351 occurrences), closely followed by 50 (1,162,947 occurrences).
-  - The frequency of values is relatively uniform, but there is a slight variation around the central values (49, 50, 51), indicating a slight tendency toward these values.
-  
-- **Entropy**:
-  - The calculated entropy is 3.45 bits per byte. This suggests that the data is fairly well distributed, but not completely random.
-  
-- **Compression**:
-  - Optimal compression could reduce the file size by 56%, indicating that there is redundancy in the data that can be exploited to reduce storage space.
+Here is the translated text:
 
-- **Chi-square Statistics**:
-  - The chi-square distribution result for the 10,692,109 samples is 241,160,523.96. This value indicates that the data follows a distribution that deviates slightly from a perfectly random distribution, but the p-value is less than 0.01%.
-  
-- **Additional Statistical Values**:
-  - The **arithmetic mean** of the byte values is 48.3424, close to the central value of 48 (which is near the median of a uniform distribution between 0 and 255). The mean being close to 127.5 (the expected average for a random uniform distribution) suggests that the data is slightly biased toward lower values.
-  - The **Monte Carlo value for Pi** is 4. This shows a significant error (27.32%) compared to the theoretical value of Pi, suggesting that the data is not fully random.
-  - The **serial correlation coefficient** is -0.066272, indicating a weak negative correlation between successive values. This suggests that the data is relatively uncorrelated, which is an indicator of behavior close to randomness.
+# Ent Report - 1.4 Million Values RP2040 RNG (ROSC)
 
-### Conclusion:
-The data appears to be relatively close to a random distribution but shows some redundancy (indicated by the entropy and the potential for compression). While the entropy is fairly high (3.45 bits per byte), statistical tests and measures like the Pi value and serial correlation reveal minor irregularities.
+### 1. **Value Frequencies (0 and 1)**:
+   ```
+   Value Char Occurrences Fraction
+     0         24340416   0.533622
+     1         21273152   0.466378
+   Total:      45613568   1.000000
+   ```
+   - **Occurrences**: The binary file contains a total of 45,613,568 bits. Out of these, 24,340,416 are "0" and 21,273,152 are "1".
+   - **Frequency**: The frequency of "0" is 53.36% and the frequency of "1" is 46.64%. The discrepancy is quite small, suggesting that the bits are fairly balanced, but there is a slight bias towards "0".
+
+### 2. **Entropy**:
+   ```
+   Entropy = 0.996736 bits per bit.
+   ```
+   - Extremely close to 1, this indicates that the data is almost perfectly random, with a very slight regularity or predictability.
+
+### 3. **Optimal Compression**:
+   - No significant compression is possible.
+
+### 4. **Chi-Square Test**:
+   ```
+   Chi square distribution for 45613568 samples is 206256.80, and randomly
+   would exceed this value less than 0.01 percent of the times.
+   ```
+   - The Chi-square value (206256.80) is very high, but it is accompanied by a probability of exceeding this value of less than 0.01%. This very low probability suggests that the observed results are statistically significant.
+
+### 5. **Arithmetic Mean of Bits**:
+   ```
+   Arithmetic mean value of data bits is 0.4664 (0.5 = random).
+   ```
+   - The mean of the bits is 0.4664, which is slightly lower than 0.5 (the expected value for perfectly random data). This is consistent with the slight predominance of "0" over "1" observed earlier in the report.
+
+### 6. **Monte Carlo Pi Estimation**:
+   ```
+   Monte Carlo value for Pi is 3.331954094 (error 6.06 percent).
+   ```
+   - The error of 6.06% is relatively high, which indicates that the RNG is not perfectly ideal, although it is still acceptable in certain contexts.
+
+### 7. **Serial Correlation Coefficient**:
+   ```
+   Serial correlation coefficient is 0.000183 (totally uncorrelated = 0.0).
+   ```
+   - The coefficient of 0.000183 indicates that the bits are virtually uncorrelated.
+
+### General Conclusion:
+The data is almost perfectly random. The results are balanced between "0" and "1", the entropy is high, and there is almost no correlation between successive bits. 
+
+**The random number generator used is of good quality**.
