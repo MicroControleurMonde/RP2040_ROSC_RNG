@@ -1,0 +1,21 @@
+Ent -b -c rp2040_rosc_rng_1425424.bin
+
+Value Char Occurrences Fraction
+  0         24340416   0.533622
+  1         21273152   0.466378
+
+Total:      45613568   1.000000
+
+Entropy = 0.996736 bits per bit.
+
+Optimum compression would reduce the size
+of this 45613568 bit file by 0 percent.
+
+Chi square distribution for 45613568 samples is 206256.80, and randomly
+would exceed this value less than 0.01 percent of the times.
+
+Arithmetic mean value of data bits is 0.4664 (0.5 = random).
+
+Monte Carlo value for Pi is 3.331954094 (error 6.06 percent).
+
+Serial correlation coefficient is 0.000183 (totally uncorrelated = 0.0).
