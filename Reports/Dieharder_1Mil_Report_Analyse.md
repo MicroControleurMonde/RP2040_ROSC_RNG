@@ -1,14 +1,18 @@
 ### Analysis of ‘WEAK’ results in Dieharder tests :
 
-1. **diehard_craps ‘** test:
-   - P-value : 0.9981
-   - Evaluation : WEAK
-   - The ‘craps’ test evaluates the distribution of the results of a game of dice. Such a high p-value (close to 1) indicates that the results of this test show no sign of non-randomness. However, this is often interpreted as a weakness in randomness, as the p-value would need to be more modest to demonstrate true randomness.
+1. **diehard_rank_32x32**
 
-2. **rgb_lagged_sum’ test (lag 11)** :
-   - P-value: 0.9991
-   - Evaluation : WEAK
-   - This test evaluates the sum of lagged elements in a sequence of data. Although the p-value is close to 1, it shows some irregularity, indicating that this particular test shows less random behaviour, even though the other tests show more favourable results.
+   - **p-value**: 0.99978142  
+   - **Assessment**: WEAK
+     
+This test evaluates the rank matrix of 32x32 blocks. Although the p-value appears high (close to 1), this result indicates that the distribution of numbers seems insufficiently random or exhibits regularities for this specific test.
+
+2. **sts_serial | 7**
+
+   - **p-value**: 0.00177723  
+   - **Assessment**: WEAK  
+
+This test analyzes bit sequences over successive intervals. A p-value this low indicates a significant deviation from an ideal uniform distribution, suggesting that the generator might have structural or periodicity flaws in the bit sequence..
 
 ### Conclusion :
-The two tests identified as **"WEAK ’** show very high p-values, suggesting that parts of the data sequence tested by Dieharder may not behave perfectly randomly. Although the other tests passed with good results, this may indicate detectable patterns in the distribution of the numbers generated.
+The two tests identified as **‘WEAK’** show that the random number generator has randomness problems. These weaknesses imply that the generator may not be entirely reliable for high-stakes applications that require strong randomness.
