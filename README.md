@@ -175,7 +175,7 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 
 [`rngtest` Test Report](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/rngtest_rp2040_rosc_rng_1425424.txt)
 
-[`rngtes`t Report Analyse](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/rngtest_rp2040_rosc_rng_1425424.md)
+[`rngtest` Report Analyse](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/rngtest_rp2040_rosc_rng_1425424.md)
 
 ## Acknowledgements
 
