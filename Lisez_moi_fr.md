@@ -111,10 +111,12 @@ De cette manière, ce processus assure que le ROSC est correctement initialisé 
 **Note** : Suite à un rappel de Scruss [(Lien)](https://github.com/scruss), j'ai changé le format du fichier de sortie d'ASCII en binaire.
 
         Lorsque les entiers aléatoires sont convertis en chaînes ASCII, il y a une perte d'entropie ! Un entier de 32 bits 
-        représente une valeur qui peut être exprimée dans une plage de 4'294'967'296 valeurs possibles (de 0 à 2^32 - 1). Cette plage contient 32 bits d'entropie.
+        représente une valeur qui peut être exprimée dans une plage de 4'294'967'296 valeurs possibles (de 0 à 2^32 - 1). 
+        Cette plage contient 32 bits d'entropie.
         
         En raison de la manière dont les caractères ASCII sont représentés (par exemple, les chiffres ou les lettres), 
-        une partie de l'entropie est perdue en raison du nombre limité de caractères possibles. Chaque caractère en ASCII contient environ 3,45 bits d'entropie au lieu des 8 bits d'entropie possibles pour un octet complet (Log₂ 11 ≈ 3.459).
+        une partie de l'entropie est perdue du fait du nombre limité de caractères possibles. Chaque caractère en ASCII 
+        contient environ 3,45 bits d'entropie au lieu des 8 bits d'entropie possibles pour un octet complet (Log₂ 11 ≈ 3.459).
 
 ### 1. Rapport de test `Ent`
 #### (Mise à jour du 22.12.2024)
