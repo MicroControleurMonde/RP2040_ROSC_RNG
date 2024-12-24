@@ -127,7 +127,7 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 
 
 ### 2. Dieharder Test Report
-#### (Updated 22.12.2024)
+##### (Updated 22.12.2024)
 (https://webhome.phy.duke.edu/~rgb/General/dieharder.php) Robert G. Brown
 
 - Sample size: **5.43 Mo MB**
@@ -137,16 +137,21 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 - [Dieharder Report Analyses](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Dieharder_1Mil_Report_Analyse.md)
 
 ### 3. TestU01 (**Rabbit** battery)
-#### (Updated 24.12.2024)
-[TestU01 source](https://simul.iro.umontreal.ca/testu01/tu01.html)
+##### (Updated 24.12.2024)
+(https://simul.iro.umontreal.ca/testu01/tu01.html)
 
 - Some low p-values suggest that the generator may have _**non-random structures or patterns**_ detected by these tests.
   
 [Test Report](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/TestU01_Rabbit.md)
 
 ### 4. rngtest (FIPS 140-2)
-#### (Updated 24.12.2024)
-[rngtest source](https://salsa.debian.org/hmh/rng-tools/-/tree/master?ref_type=heads)
+##### (Updated 24.12.2024)
+(https://salsa.debian.org/hmh/rng-tools/)
+- Test result: **all the FIPS tests failed**
+
+[rngtest Test Report](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/rngtest_rp2040_rosc_rng_1425424.txt)
+
+[rngtest Report Analyse](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/rngtest_rp2040_rosc_rng_1425424.md)
 
 ## Acknowledgements
 
