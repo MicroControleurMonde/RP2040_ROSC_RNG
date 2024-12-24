@@ -144,7 +144,7 @@ This way, this process ensures that the ROSC is correctly initialised and stable
   
 [Test Report](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/TestU01_Rabbit.md)
 
-### 4. `rngtest` (FIPS 140-2)
+### 4. `rngtest` (Validation FIPS 140-2)
 ##### (Updated 24.12.2024)
 (https://salsa.debian.org/hmh/rng-tools/)
 - Test result: **all the FIPS tests failed** :warning:
