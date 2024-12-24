@@ -30,7 +30,7 @@ Une bibliothèque Micro-python qui fournit une interface pour générer un nombr
 ## Contexte
 
 La fondation Raspberry a récemment mis à jour la fiche technique de leur Pico :
-`Fiche technique - Date de construction : 2024-10-15 / Version de construction : eec2b0c-clean`
+`Datasheet - Build-date: 2024-10-15 / Build-version: eec2b0c-clean`
 
 [Fiche technique RP2040 Pico (Chapitre 2.17)](https://datasheets.raspberrypi.com/pico/pico-datasheet.pdf)
 
@@ -38,7 +38,12 @@ La fondation Raspberry a récemment mis à jour la fiche technique de leur Pico 
 
     2.17.5. Générateur de nombres aléatoires
     
-    Si les horloges système fonctionnent à partir du XOSC et/ou des PLL, le ROSC peut être utilisé pour générer des nombres aléatoires. Il suffit d'activer le ROSC et de lire le registre RANDOMBIT pour obtenir un nombre aléatoire sur 1 bit, et de le lire n fois pour obtenir une valeur sur n bits. Cela ne répond pas aux exigences de randomisation pour les systèmes de sécurité car il peut être compromis, mais cela peut être utile dans des applications moins critiques. Si les cœurs fonctionnent à partir du ROSC, la valeur ne sera pas aléatoire car le timing de la lecture du registre sera corrélé à la phase du ROSC.
+    Si les horloges système fonctionnent à partir du XOSC et/ou des PLL, le ROSC peut être utilisé pour générer des nombres
+    aléatoires. Il suffit d'activer le ROSC et de lire le registre RANDOMBIT pour obtenir un nombre aléatoire sur 1 bit,
+    et de le lire n fois pour obtenir une valeur sur n bits. Cela ne répond pas aux exigences de randomisation pour les
+    systèmes de sécurité car il peut être compromis, mais cela peut être utile dans des applications moins critiques.
+    Si les cœurs fonctionnent à partir du ROSC, la valeur ne sera pas aléatoire car le timing de la lecture du registre
+    sera corrélé à la phase du ROSC.
 
 Le générateur de nombres aléatoires utilise le ROSC (Oscillateur à résonance) pour produire des bits aléatoires.
 
@@ -72,7 +77,7 @@ Ce script importe la classe `ROSCRandomGenerator` depuis rosc_random_generator.p
 
 Le générateur de nombres aléatoires RP2040 ROSC génère des nombres entiers aléatoires sous forme de **valeurs sur 32 bits**.
 
-        ROSC est stable. Début de la génération des nombres aléatoires...
+        ROSC stable. Début de la génération des nombres aléatoires...
 
         Valeur aléatoire # 1 :	 2880935910
         Valeur aléatoire # 2 :	 3756622924
@@ -97,7 +102,7 @@ De cette manière, ce processus assure que le ROSC est correctement initialisé 
 
 ## Test de performance
 
-**Avertissement** : ne pas écrire sur la mémoire flash !
+**Avertissement** : `sans écriture` sur mémoire flash !
 
 - Temps estimé pour générer 1'425'424 valeurs : **2'143 secondes** (environ 35 minutes)
 - Temps moyen par valeur : **0.0015 sec**
@@ -116,7 +121,8 @@ De cette manière, ce processus assure que le ROSC est correctement initialisé 
         
         En raison de la manière dont les caractères ASCII sont représentés (par exemple, les chiffres ou les lettres), 
         une partie de l'entropie est perdue du fait du nombre limité de caractères possibles. Chaque caractère en ASCII 
-        contient environ 3,45 bits d'entropie au lieu des 8 bits d'entropie possibles pour un octet complet (Log₂ 11 ≈ 3.459).
+        contient environ 3,45 bits d'entropie au lieu des 8 bits d'entropie possibles pour un octet complet. 
+        (Log₂ 11 ≈ 3.459)
 
 ### 1. Rapport de test `Ent`
 #### (Mise à jour du 22.12.2024)
