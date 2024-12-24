@@ -1,10 +1,10 @@
 # TestU01  
 
-##  **Rabbit** battery tests on the generator (RP2040 ROSC RNG) / Test on 1000 bits
+##  **Rabbit** battery tests on the generator (RP2040 ROSC RNG)
 
-- Frequency** tests: Check whether the 0s and 1s are evenly distributed.
-- Long sequence tests**: Check whether patterns or repetitions appear.
-- Correlation** tests: Test independence between successive bits in the generated sequence.
+- **Frequency** tests: Check whether the 0s and 1s are evenly distributed.
+- **Long sequence tests**: Check whether patterns or repetitions appear.
+- **Correlation** tests: Test independence between successive bits in the generated sequence.
 
 The results of the Rabbit battery tests show that the random number generator from the binary file works, but some tests fail with very low p-values (indicating a deviation from theoretical expectations for certain types of test).
 
