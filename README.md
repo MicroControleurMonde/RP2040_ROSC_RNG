@@ -160,10 +160,13 @@ This way, this process ensures that the ROSC is correctly initialised and stable
             free(gen); // Free the generator
             
             return 0;
-
-- Some low p-values suggest that the generator may have _**non-random structures or patterns**_ detected by these tests.
+  
+[TestU01 Raw](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/TestU01_results_test.txt)
   
 [Test Report](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/TestU01_Rabbit.md)
+
+- Some low p-values suggest that the generator may have _**non-random structures or patterns**_ detected by these tests.
+
 
 ### 4. `rngtest` (Validation FIPS 140-2)
 ##### (Updated 24.12.2024)
