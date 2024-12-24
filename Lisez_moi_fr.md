@@ -187,6 +187,8 @@ De cette manière, ce processus assure que le ROSC est correctement initialisé 
 ##### (Mise à jour du 24.12.2024)
 (https://salsa.debian.org/hmh/rng-tools/)
 - Résultat du test : **tous les tests FIPS ont échoué** :warning:
+  
+  Ce qui implique un traitement post-générateur...
 
 [Rapport `rngtest`](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/rngtest_rp2040_rosc_rng_1425424.txt)
 
