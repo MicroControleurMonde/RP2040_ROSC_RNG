@@ -133,7 +133,7 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 - Sample size: **5.43 Mo MB**
 - Total generated: **1'425'424 values**
 
-- [Dieharder Report - Raw](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Dieharder_rp2040_rosc_rng_1Mil.txt)
+- [Dieharder Report - Raw](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Dieharder_rp2040_rosc_rng_1425424.txt)
 - [Dieharder Report Analyses](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Dieharder_1Mil_Report_Analyse.md)
 
 ### 3. `TestU01` (**Rabbit** battery)
