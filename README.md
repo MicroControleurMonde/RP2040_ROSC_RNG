@@ -106,7 +106,7 @@ This way, this process ensures that the ROSC is correctly initialised and stable
         8 possible entropy bits for a complete byte (Log₂ 11 ≈ 3.459).
 
 
-### Ent Test Report 
+### 1. Ent Test Report 
 #### (Updated 22.12.2024)
 
   ([www.fourmilab.ch](https://www.fourmilab.ch/random/)) John Walker
@@ -126,7 +126,7 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 ![Histogram](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Webp.net-resizeimage.png)
 
 
-### Dieharder Test Report
+### 2. Dieharder Test Report
 #### (Updated 22.12.2024)
 (https://webhome.phy.duke.edu/~rgb/General/dieharder.php) Robert G. Brown
 
@@ -135,6 +135,13 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 
 - [Dieharder Report - Raw](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Dieharder_rp2040_rosc_rng_1Mil.txt)
 - [Dieharder Report Analyses](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/Dieharder_1Mil_Report_Analyse.md)
+
+### 3. TestU01 (**Rabbit** battery)
+#### (Updated 24.12.2024)
+
+- Some low p-values suggest that the generator may have _**non-random structures or patterns**_ detected by these tests.
+  
+[Test Report](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/TestU01_Rabbit.md)
 
 ## Acknowledgements
 
