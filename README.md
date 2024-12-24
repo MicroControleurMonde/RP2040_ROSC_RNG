@@ -139,6 +139,27 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 ### 3. `TestU01` (**Rabbit** battery)
 ##### (Updated 24.12.2024)
 (https://simul.iro.umontreal.ca/testu01/tu01.html)
+- C code snippet (only Main):
+
+
+        int main() {
+            // Path to binary file
+            const char *filename= "/home/user_name/rp2040_rosc_rng_1425424.bin";
+            // Create a generator from the file
+            unif01_Gen *gen = create_gen(filename);
+            if (gen == NULL) {
+             return 1;
+            }
+            // Example with the Rabbit test battery
+            printf("Starting tests from the \n file");
+            bbattery_Rabbit(gen, 1000); // Test on 1000 bits
+
+            // Memory release
+            close(global_gen->file);
+            free(global_gen); // Free the generator state
+            free(gen); // Free the generator
+            
+            return 0;
 
 - Some low p-values suggest that the generator may have _**non-random structures or patterns**_ detected by these tests.
   
