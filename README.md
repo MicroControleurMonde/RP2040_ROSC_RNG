@@ -138,10 +138,15 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 
 ### 3. TestU01 (**Rabbit** battery)
 #### (Updated 24.12.2024)
+[TestU01 source](https://simul.iro.umontreal.ca/testu01/tu01.html)
 
 - Some low p-values suggest that the generator may have _**non-random structures or patterns**_ detected by these tests.
   
 [Test Report](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/TestU01_Rabbit.md)
+
+### 4. rngtest (FIPS 140-2)
+#### (Updated 24.12.2024)
+[rngtest source](https://salsa.debian.org/hmh/rng-tools/-/tree/master?ref_type=heads)
 
 ## Acknowledgements
 
