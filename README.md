@@ -1,9 +1,19 @@
-# RP2040 ROSC RNG
+# RP2040 ROSC RNG 🇬🇧
+
+###### [Version francaise ici](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Lisez_moi_fr.md) 🇫🇷
 
 ![Image locale](https://github.com/MicroControleurMonde/RP2040-RNG/blob/main/Reports/RP2040-resizeimage3.png)
 
 https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Lisez_moi_fr.md
 
+A Micro-python library that provides an interface to generate a random number using the recommended method (ROSC reading) by Raspberry.
+- Library : `rosc_random_generator.py` -  Python library for generating random numbers
+- Test Script: `test_rosc_random_generator.py` - Example script demonstrating how to use the library.
+
+##### (Update 12.22.2024)
+- `Test_ROSC.py` - The initial code that I used to test RP2040 ROSC.
+---
+## Index
 1. [Context](#context)
 2. [Project description](#project-description)
 3. [Prerequisites](#prerequisites)
@@ -15,15 +25,7 @@ https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Lisez_moi_fr.m
 9. [Acknowledgment](#Acknowledgment)
 10. [Warning](#warning)
 11. [Special tribute](#tribute-special)
-
-A Micro-python library that provides an interface to generate a random number using the recommended method (ROSC reading) by Raspberry.
-- Library : `rosc_random_generator.py` -  Python library for generating random numbers
-- Test Script: `test_rosc_random_generator.py` - Example script demonstrating how to use the library.
-
-##### (Update 12.22.2024)
-- `Test_ROSC.py` - The initial code that I used to test RP2040 ROSC.
 ---
-
 ## Context:
 
 Raspberry foundation recently updated their Pico Datasheet:
