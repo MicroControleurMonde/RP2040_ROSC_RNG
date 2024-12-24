@@ -23,7 +23,7 @@ A Micro-python library that provides an interface to generate a random number us
 7. [Performance test](#performance-test)
 8. [Statistical and quality tests](#statistical-and-quality-tests)
 9. [Acknowledgment](#Acknowledgment)
-10. [Warning](#warning)
+10. [Disclaimer](#Disclaimer)
 11. [Special tribute](#tribute-special)
 ---
 ## Context:
