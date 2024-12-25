@@ -195,6 +195,17 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 
 [`rngtest` Report Analyse](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/rngtest_rp2040_rosc_rng_1425424.md)
 
+### 5. `djent`
+##### (Updated 25.12.2024)
+- `djent` A reimplementation of the Fourmilab/John Walker random number test program ent with several improvements.
+(https://github.com/dj-on-github/djent)
+
+:warning:  Rember to install MPFR (dependencies):
+`sudo apt-get install libmpfr-dev libgmp-dev` :warning:
+
+And to update teh `Makefile` accordingly before compilation!
+
+
 ## Acknowledgements
 
 The project is based on the RP2040 microcontroller, and its MicroPython firmware.
