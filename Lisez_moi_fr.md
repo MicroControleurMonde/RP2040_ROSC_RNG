@@ -1,6 +1,4 @@
-🇫🇷
-# RP2040 ROSC RNG 
-
+# RP2040 ROSC RNG ![Image locale](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/fr-resize2.png)
 ![Image locale](https://github.com/MicroControleurMonde/RP2040-RNG/blob/main/Reports/RP2040-resizeimage3.png)
 
 Une bibliothèque Micro-python qui fournit une interface pour générer un nombre aléatoire en utilisant la méthode recommandée (lecture du ROSC) par Raspberry.
