@@ -1,6 +1,5 @@
-# RP2040 ROSC RNG :FR:
-
-`:fr:`
+🇫🇷
+# RP2040 ROSC RNG 
 
 ![Image locale](https://github.com/MicroControleurMonde/RP2040-RNG/blob/main/Reports/RP2040-resizeimage3.png)
 
