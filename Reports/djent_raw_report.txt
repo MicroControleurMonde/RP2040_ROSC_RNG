@@ -1,0 +1,16 @@
+ djent -b  rp2040_rosc_rng_1425424.bin
+ 
+ opening rp2040_rosc_rng_1425424.bin as binary
+ Symbol Size(bits) = 1
+   Min Entropy (by max occurrence of symbol 0) = 0.906109
+   Analysing 45613561 1-bit symbols
+   Shannon IID Entropy = 0.996736 bits per symbol
+   Optimal compression would compress by 0.326427 percent
+   Chi square: symbol count=45613561, distribution=206256.69, randomly exceeds 0.00 percent of the time
+   Mean = 0.466378
+   Monte Carlo value for Pi is 3.331954 (error 6.06 percent).
+   Serial Correlation = 0.000183
+   Longest Run Symbol = 0. Run Length = 26
+   Probabilty of longest run being <= 26 = 0.711879
+   Position of Longest Run = 885363 (0xd8273). Byte position 110670 (0x1b04e)
+   A 2 state Markov generator with transition probabilities P01=0.466293, P10=0.533525 would generate data with entropy 0.905908 per bit with 8 bit symbols with the same mean and serial correlation
