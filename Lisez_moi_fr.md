@@ -196,8 +196,8 @@ De cette manière, ce processus assure que le ROSC est correctement initialisé 
 
 ### 5. `djent` (David Johnston - Random Number Generators―Principles and Practices)  ISBN 978-1501515132
 ##### (Updated 25.12.2024)
-- `djent` A reimplementation of the Fourmilab/John Walker random number test program ent with several improvements.
-- 
+- `djent` : Une réimplémentation du programme de test de nombres aléatoires (Ent) de feu John Walker/Fourmilab, avec plusieurs améliorations.
+
 (https://github.com/dj-on-github/djent)
 
 :warning:  N'oubliez pas d'installer MPFR (dépendances):
