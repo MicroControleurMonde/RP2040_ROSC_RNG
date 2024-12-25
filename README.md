@@ -206,9 +206,7 @@ This way, this process ensures that the ROSC is correctly initialised and stable
 
 And to update the `Makefile` accordingly before compilation!
 
-- Shannon IID Entropy = **0.996736 ** bits per symbol (_7.973888 bits per byte_)
-
-[`djent` Raw Report](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/djent_Raw_Report.txt)
+[`djent` Raw Report](https://github.com/MicroControleurMonde/RP2040_ROSC_RNG/blob/main/Reports/djent_raw_report.txt)
 
 ## Acknowledgements
 
