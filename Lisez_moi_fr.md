@@ -36,12 +36,12 @@ La fondation Raspberry a récemment mis à jour la fiche technique de leur Pico 
 
     2.17.5. Générateur de nombres aléatoires
     
-    Si les horloges système fonctionnent à partir du XOSC et/ou des PLL, le ROSC peut être utilisé pour générer des nombres
-    aléatoires. Il suffit d'activer le ROSC et de lire le registre RANDOMBIT pour obtenir un nombre aléatoire sur 1 bit,
-    et de le lire n fois pour obtenir une valeur sur n bits. Cela ne répond pas aux exigences de randomisation pour les
-    systèmes de sécurité car il peut être compromis, mais cela peut être utile dans des applications moins critiques.
-    Si les cœurs fonctionnent à partir du ROSC, la valeur ne sera pas aléatoire car le timing de la lecture du registre
-    sera corrélé à la phase du ROSC.
+    Si les horloges système fonctionnent à partir du XOSC et/ou des PLL, le ROSC peut être utilisé pour générer 
+    des nombres aléatoires. Il suffit d'activer le ROSC et de lire le registre RANDOMBIT pour obtenir un nombre 
+    aléatoire sur 1 bit, et de le lire n fois pour obtenir une valeur sur n bits. Cela ne répond pas aux exigences de
+    randomisation pour les systèmes de sécurité car il peut être compromis, mais cela peut être utile dans des
+    applications moins critiques. Si les cœurs fonctionnent à partir du ROSC, la valeur ne sera pas aléatoire 
+    car le timing de la lecture du registre sera corrélé à la phase du ROSC.
 
 Le générateur de nombres aléatoires utilise le ROSC (Oscillateur à résonance) pour produire des bits aléatoires.
 
