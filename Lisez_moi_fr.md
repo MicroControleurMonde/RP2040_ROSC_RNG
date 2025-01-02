@@ -49,7 +49,7 @@ Le générateur de nombres aléatoires utilise le ROSC (Oscillateur à résonanc
 
 ## Description du projet
 
-Ce projet implémente un générateur de nombres aléatoires véritablement aléatoires (TRNG) utilisant le microcontrôleur RP2040. Le générateur utilise l'oscillateur à anneau comme recommandé dans la fiche technique.
+Ce projet implémente un générateur de nombres     véritablement aléatoires (TRNG) utilisant le microcontrôleur RP2040. Le générateur utilise l'oscillateur à anneau comme recommandé dans la fiche technique.
 
 ## Prérequis
 
